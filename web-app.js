@@ -11,7 +11,7 @@ const koaSend = require('koa-send');
 
 
 const config = require('./routes/config/config.js');
-const sampleRouter = require('./routes/providing-subscription-aftp-router.js');
+const sampleRouter = require('./routes/sample-router.js');
 
 const app = new Koa();
 
